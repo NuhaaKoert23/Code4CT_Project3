@@ -1,4 +1,4 @@
-# Code4CT_Project3
+# Code4ct
 rebuilding a website
 
 ## Technologies used:
@@ -8,7 +8,7 @@ rebuilding a website
 - JS
 
 ## Published by:
-https://nuhaakoert23.github.io/Code4CT_Project3/index.html
+https://nuhaakoert23.github.io/Code4ct/index.html
 
 #### Author
 Nuhaa Daniels

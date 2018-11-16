@@ -5,25 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
-    
+    <link rel="stylesheet" type="text/css" media="screen" href="SASS/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="">Courses</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Portfolio</a></li>
-        </ul>
+        <div class="NavText">
+            <ul>
+                <div>
+                    <li><a href="#">Home</a></li>
+                </div>
+
+                <div>
+                    <li><a href="">Courses</a></li>
+                </div>
+
+                <div>
+                    <li><a href="">About</a></li>
+                </div>
+
+                <div>
+                    <li><a href="">Contact</a></li>
+                </div>
+
+                <div>
+                    <li><a href="">Portfolio</a></li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="search">
+            <input id="seach" type="search" name="search" placeholder="search..">
+            <button id="SearchButton"><i class="fa fa search"></i></button>
+        </div>
+        
     </nav>
+    
+    <div class="HomepageBody">
+        <div class="Home_pageHeader">
+            <h1>Young Women Leveraging Tech for Social Innovation</h1>
+        </div>
 
-    <h1>Young Women Leveraging Tech for Social Innovation</h1>
-    <p>We want to see young women empowered to leverage technology for social innovation, so that there is greater diversity in the African tech industry. We want high school girls to have an enabling environment to imagine and create new technology that is relevant to a South African context.</p>
+        <p>We want to see young women empowered to leverage technology for social innovation, so that there is greater diversity in the African tech industry. We want high school girls to have an enabling environment to imagine and create new technology that is relevant to a South African context.</p>
 
-    <button>START CODING</button>
-    <button>DONATE</button>
+        <button>START CODING</button>
+        <button>DONATE</button>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

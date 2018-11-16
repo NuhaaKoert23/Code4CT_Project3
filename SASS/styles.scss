@@ -1,0 +1,81 @@
+$background-color: #4e4e4e;
+$primary-color1: #666666;
+$hover-color1: #ee534f;
+$primary-color2: #f9f9f9;
+$primary-color3: #e8e8e8;
+$font-stack:  'Poppins', sans-serif;
+
+// Styling Nav bar
+nav{
+    width: 2000px;
+    height: 100px;
+    background-color: $primary-color2;
+}
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: $primary-color1;
+}
+
+nav a:hover{
+    color: $hover-color1;
+}
+
+.NavText ul {
+    padding: 30px 700px ;
+    width:600px;
+    height: 11px;
+    font-family: $font-stack;
+    line-height: 2.14;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.search {
+    margin-left: 1500px;
+    margin-top: -20px;
+}
+
+.search #search {
+    width: 150px;
+    height: 15px;
+}
+
+.search button {
+    margin-top: 
+    width: 3px;
+    height: 3px;
+}
+
+//  Styling home page
+.HomepageBody {
+    background-color: $background-color;
+    width: 2000px;
+    height: 800px;
+}
+
+.Home_pageHeader {
+    color: $primary-color3;
+    width: 1300px;
+    height: 80px;
+    font-family: $font-stack;
+    font-size: 40px;
+    font-weight: 600px;
+    font-style: normal;
+    font-stretch: 2px;
+    line-height: 70px;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 125px 279px ;
+}
+
+.HomepageBody p {
+    font-family: $font-stack;
+    padding: 199.5px 299.5px;
+    color: $primary-color3;
+    
+}
+
