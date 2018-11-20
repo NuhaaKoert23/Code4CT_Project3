@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+nav {
+  width: 1500px;
+  height: 100px;
+  background-color: #f9f9f9; }
+
+nav ul {
+  list-style: none;
+  padding: 25px 455px; }
+
+nav li {
+  float: left; }
+
+nav a {
+  text-decoration: none;
+  color: #666666;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  letter-spacing: 2px; }
+
+nav a:hover {
+  color: #ee534f; }
+
+/* Style the search field */
+form.search input[type=text] {
+  margin-left: 70px;
+  font-size: 12px;
+  border: 1px solid #666666;
+  border-radius: 2px;
+  float: left;
+  width: 180px;
+  height: 25px;
+  background: #f9f9f9;
+  font-family: "Poppins", sans-serif;
+  margin-top: -30px; }
+
+form.search button {
+  height: 29px;
+  border: 1px solid #666666;
+  border-radius: 2px;
+  color: #ee534f;
+  background-color: #f9f9f9;
+  border-left: none; }
+
+/*# sourceMappingURL=styles.css.map */

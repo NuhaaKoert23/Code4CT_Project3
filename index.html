@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="SASS/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav>
@@ -34,10 +35,10 @@
             </ul>
         </div>
 
-        <div class="search">
-            <input id="seach" type="search" name="search" placeholder="search..">
-            <button id="SearchButton"><i class="fa fa search"></i></button>
-        </div>
+        <form class="search" action="action_page.php">
+            <input type="text" placeholder="search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
         
     </nav>
     
