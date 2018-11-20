@@ -1,4 +1,4 @@
-$background-color: #4e4e4e;
+$background-color: #222222;
 $primary-color1: #666666;
 $hover-color: #ee534f;
 $primary-color2:#f9f9f9;
@@ -8,7 +8,6 @@ $font-stack: 'Poppins', sans-serif;
 
 // Styling Nav bar
 nav {
-    width: 1500px;
     height: 100px;
     background-color: $primary-color2;
 }
@@ -58,5 +57,49 @@ form.search button {
     background-color: $primary-color2;
     border-left: none;
 }
+
+.HomepageHeader {
+    background-color: $background-color;
+    font-family: $font-stack;
+    color: $primary-color3;
+}
+
+.Home_pageHeader {
+    font-size: 25px;
+    width: 790px;
+    padding: 125px 350px;
+    text-align: center;
+}
+
+.HomepageHeader p {
+    font-size: 11px;
+    text-align: center;
+    width:750px;
+    height: 20px;
+    padding: 20px 350px;
+    margin-top: -150px;
+}
+
+// Styling first pair of buttons
+.BigButtons button {
+    width: 150px;
+    height: 43px;
+    border-radius: 3px;
+    border: 1.5px solid $primary-color3;
+    color: $primary-color3;
+    background-color: $background-color;
+    font-family: $font-stack;
+    font-size: 10px;
+}
+
+.BigButtons {
+    padding: 25px 600px 125px;
+}
+
+.BigButtons button:hover {
+    background-color: $hover-color;
+}
+
+
 
 

@@ -1,5 +1,4 @@
 nav {
-  width: 1500px;
   height: 100px;
   background-color: #f9f9f9; }
 
@@ -41,5 +40,40 @@ form.search button {
   color: #ee534f;
   background-color: #f9f9f9;
   border-left: none; }
+
+.HomepageHeader {
+  background-color: #222222;
+  font-family: "Poppins", sans-serif;
+  color: #e8e8e8; }
+
+.Home_pageHeader {
+  font-size: 25px;
+  width: 790px;
+  padding: 125px 350px;
+  text-align: center; }
+
+.HomepageHeader p {
+  font-size: 11px;
+  text-align: center;
+  width: 750px;
+  height: 20px;
+  padding: 20px 350px;
+  margin-top: -150px; }
+
+.BigButtons button {
+  width: 150px;
+  height: 43px;
+  border-radius: 3px;
+  border: 1.5px solid #e8e8e8;
+  color: #e8e8e8;
+  background-color: #222222;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px; }
+
+.BigButtons {
+  padding: 25px 600px 125px; }
+
+.BigButtons button:hover {
+  background-color: #ee534f; }
 
 /*# sourceMappingURL=styles.css.map */
