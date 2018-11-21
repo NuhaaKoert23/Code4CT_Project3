@@ -12,9 +12,19 @@ nav {
     background-color: $primary-color2;
 }
 
+nav img {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
 nav ul {
     list-style: none;
-    padding: 25px 455px;
+    padding: 2px 455px;
+    margin-top: -50px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-regular;
 }
 
 nav li {
@@ -37,7 +47,7 @@ nav a:hover {
 /* Style the search field */
 form.search input[type=text] {
     margin-left:70px;
-    font-size: 12px;
+    font-size: 10px;
     border: 1px solid $primary-color1;
     border-radius: 2px;
     float: left;
@@ -45,8 +55,6 @@ form.search input[type=text] {
     height: 25px;
     background: $primary-color2;
     font-family: $font-stack;
-    margin-top: -30px;
-    
 }
 
 form.search button {
@@ -60,8 +68,11 @@ form.search button {
 
 .HomepageHeader {
     background-color: $background-color;
+    background-image: url("https://www.htxt.co.za/wp-content/uploads/2016/02/Screenshot-742.png");
+    background-position: center;
+    background-size: cover;
     font-family: $font-stack;
-    color: $primary-color3;
+    color: $primary-color1;
 }
 
 .Home_pageHeader {
@@ -82,7 +93,7 @@ form.search button {
 
 // Styling first pair of buttons
 .BigButtons button {
-    width: 150px;
+    width: 130px;
     height: 43px;
     border-radius: 3px;
     border: 1.5px solid $primary-color3;

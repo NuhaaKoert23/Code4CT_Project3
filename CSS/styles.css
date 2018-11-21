@@ -2,9 +2,18 @@ nav {
   height: 100px;
   background-color: #f9f9f9; }
 
+nav img {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 10px; }
+
 nav ul {
   list-style: none;
-  padding: 25px 455px; }
+  padding: 2px 455px;
+  margin-top: -50px;
+  font-size: 12px;
+  font-family: 'Poppins', sans-regular; }
 
 nav li {
   float: left; }
@@ -23,15 +32,14 @@ nav a:hover {
 /* Style the search field */
 form.search input[type=text] {
   margin-left: 70px;
-  font-size: 12px;
+  font-size: 10px;
   border: 1px solid #666666;
   border-radius: 2px;
   float: left;
   width: 180px;
   height: 25px;
   background: #f9f9f9;
-  font-family: "Poppins", sans-serif;
-  margin-top: -30px; }
+  font-family: "Poppins", sans-serif; }
 
 form.search button {
   height: 29px;
@@ -43,8 +51,11 @@ form.search button {
 
 .HomepageHeader {
   background-color: #222222;
+  background-image: url("https://www.htxt.co.za/wp-content/uploads/2016/02/Screenshot-742.png");
+  background-position: center;
+  background-size: cover;
   font-family: "Poppins", sans-serif;
-  color: #e8e8e8; }
+  color: #666666; }
 
 .Home_pageHeader {
   font-size: 25px;
@@ -61,7 +72,7 @@ form.search button {
   margin-top: -150px; }
 
 .BigButtons button {
-  width: 150px;
+  width: 130px;
   height: 43px;
   border-radius: 3px;
   border: 1.5px solid #e8e8e8;
