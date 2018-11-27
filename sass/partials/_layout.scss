@@ -81,10 +81,11 @@ nav a:hover {
 // layout of the Coding, Problem solving and Career guidance block
 .coding_problemsolving_careerguidance {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 33.33% 33.33% 33.33%;
     background-color: $hover-color;
-    height: 300px;
+    height: 350px;
     align-items: center;
     text-align: center;
     font-family: $font-stack;   
 }
+

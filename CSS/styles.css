@@ -34,6 +34,11 @@ h4 {
   text-decoration: none;
   color: #666666; }
 
+.coding_problemsolving_careerguidance p {
+  width: 40%;
+  margin-left: -198px;
+  margin-top: 10px; }
+
 nav {
   height: 100px;
   background-color: #f9f9f9; }
@@ -99,9 +104,9 @@ nav a:hover {
 
 .coding_problemsolving_careerguidance {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 33.33% 33.33% 33.33%;
   background-color: #ee534f;
-  height: 300px;
+  height: 350px;
   align-items: center;
   text-align: center;
   font-family: "Poppins", sans-serif; }
@@ -154,6 +159,7 @@ button:hover {
 
 .cpcIcon img {
   width: 50px;
-  height: 50px; }
+  height: 50px;
+  margin-top: -50px; }
 
 /*# sourceMappingURL=styles.css.map */
