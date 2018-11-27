@@ -1,3 +1,12 @@
+body {
+  background-color: #f9f9f9;
+  margin: 0 10px;
+  padding: 0; }
+
+html {
+  margin: 0;
+  padding: 0; }
+
 .home_pageheader {
   font-size: 25px;
   width: 790px;
@@ -9,7 +18,7 @@ p {
   text-align: center;
   width: 750px;
   height: 20px;
-  padding: 20px 350px;
+  padding: 20px;
   margin-top: -150px; }
 
 h4 {
@@ -36,7 +45,6 @@ h4 {
 
 .coding_problemsolving_careerguidance p {
   width: 40%;
-  margin-left: -198px;
   margin-top: 10px; }
 
 .header3 h2 {
@@ -51,7 +59,13 @@ h4 {
   font-size: 1em;
   color: #666666; }
 
+.header4 h2 {
+  font-family: "Poppins", sans-medium; }
+
 nav {
+  position: sticky;
+  z-index: 1;
+  top: 0;
   height: 100px;
   background-color: #f9f9f9; }
 
