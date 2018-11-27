@@ -51,3 +51,18 @@ h4 {
     margin-left: -198px;
     margin-top: 10px;
 }
+
+// our exciting courses section
+.header3 h2 {
+    font-family: $font-stack2;
+    padding: 30px 30px;
+}
+
+.describe_course p {
+    font-family: $font-stack4;
+    margin-top: 40px;
+    margin-left: -320px;
+    text-align: left;
+    font-size: 1em;
+    color: $primary-color1;
+}
