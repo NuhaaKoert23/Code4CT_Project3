@@ -73,7 +73,7 @@ nav a:hover {
     grid-template-rows: repeat(2,1fr);
     width: 630px;
     grid-row-gap: 10px;
-    padding: none;
+    margin-left: -100px;
 }
 
 .who_we_are_img img {
