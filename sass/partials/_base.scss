@@ -1,0 +1,47 @@
+// styling index header content
+.home_pageheader {
+    font-size: 25px;
+    width: 790px;
+    padding: 125px 350px;
+    text-align: center;
+}
+
+p {
+    font-size: 11px;
+    text-align: center;
+    width:750px;
+    height: 20px;
+    padding: 20px 350px;
+    margin-top: -150px;
+}
+
+h4 {
+    font-family: $font-stack2
+}
+
+// who we are content
+.describe_who_we_are {
+    h4 {
+        font-family: $font-stack2;
+        color: $primary-color5;
+        text-align: left;
+        line-height: 15.5px;
+        width: 500px;
+    }
+
+    p {
+        text-align: left;
+        margin-top: 5px;
+        margin-left: -350px;
+        font-size: 1em;
+        font-family: $font-stack4;
+        color: $primary-color1;
+        width: 500px;
+    }
+
+}
+
+.readmorebtn a {
+    text-decoration: none;
+    color: $primary-color1;
+}

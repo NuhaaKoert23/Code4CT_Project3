@@ -1,0 +1,90 @@
+// Styling Nav bar
+nav {
+    height: 100px;
+    background-color: $primary-color2;
+}
+
+nav ul {
+    list-style: none;
+    padding: 2px 455px;
+    margin-top: -50px;
+    font-size: 12px;
+    font-family: $font-stack3;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: $primary-color1;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    color: $hover-color;
+}
+
+// styling index header content
+.homepageheader {
+    background-color: $background-color;
+    font-family: $font-stack;
+    color: $primary-color1;
+    height: 600px;
+}
+
+// Styling first pair of buttons
+.bigbuttons {
+    padding: 25px 600px 125px;
+}
+
+// styling who we are content 
+.information1 {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    font-family: $font-stack;
+    padding: 30px;
+    width: 400px;
+}
+
+.line-border {
+    border-bottom:2px solid #ee534f;
+    width: 50px;
+    height: 2.5px;
+}
+
+.line-border2 {
+    border-top: 1.2px solid $primary-color4;
+    width: 250px;
+    margin-top: 1px;
+}
+
+// styling who we are gallery 
+.who_we_are_img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 630px;
+    grid-row-gap: 10px;
+    padding: none;
+}
+
+.who_we_are_img img {
+    width: 300px;
+    height: 200px;
+}
+
+// layout of the Coding, Problem solving and Career guidance block
+.coding_problemsolving_careerguidance {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: $hover-color;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    font-family: $font-stack;   
+}
