@@ -54,7 +54,8 @@ h4 {
   color: #666666; }
 
 .header4 h2 {
-  font-family: "Poppins", sans-medium; }
+  font-family: "Poppins", sans-medium;
+  padding: 30px 30px; }
 
 body {
   background-color: #f9f9f9;
