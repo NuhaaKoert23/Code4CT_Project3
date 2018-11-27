@@ -145,4 +145,19 @@ nav a:hover {
     height: 415px;
 }
 
+//meet the team
+.members {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 300px;
+    margin-left: 30px;
+}
+
+.memberdescription {
+    width: 500px;;
+}
+
+
+
 
