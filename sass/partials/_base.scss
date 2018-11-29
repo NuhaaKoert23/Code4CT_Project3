@@ -59,6 +59,7 @@ h4 {
 .header3 h2 {
     font-family: $font-stack2;
     padding: 10px 200px;
+    margin-top: 70px;
 
 }
 
@@ -74,7 +75,8 @@ h4 {
 // styling Meet our Team
 .header4 h2 {
     font-family: $font-stack2;
-    padding: 30px 200px;
+    padding: 20px 200px;
+    margin-top: 100px;
 }
 
 .meet_our_team_des {
@@ -95,6 +97,26 @@ h4 {
         margin: 0;
         text-align: left;
         width: 300px;
+    }
+    h3 {
+        font-family: $font-stack2;
+        color: $primary-color6;
+        font-size: 18px;
+        height: 15px;
+    }
+
+    .p1  {
+        font-family: $font-stack;
+        color: $primary-color1;
+        font-size: 16px;
+    }
+
+    .p2 {
+        font-family: $font-stack4;
+        color: $primary-color1;
+        margin-top: 20px;
+        line-height: 20px;
+        font-size: 13px;
     }
 }
 
