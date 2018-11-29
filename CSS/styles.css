@@ -44,11 +44,11 @@ h4 {
 
 .header3 h2 {
   font-family: "Poppins", sans-medium;
-  padding: 20px 200px; }
+  padding: 10px 200px; }
 
 .describe_course p {
   font-family: "Poppins", sans-light;
-  margin-top: 40px;
+  margin-top: 0;
   padding: 20px 200px;
   text-align: left;
   font-size: 1em;
@@ -56,7 +56,7 @@ h4 {
 
 .header4 h2 {
   font-family: "Poppins", sans-medium;
-  padding: 30px 30px; }
+  padding: 30px 200px; }
 
 .meet_our_team_des p {
   margin: 0;
@@ -64,13 +64,14 @@ h4 {
   text-align: left;
   font-family: "Poppins", sans-light;
   font-size: 15px;
-  padding: 30px 30px;
+  padding: 30px 200px;
   color: #666666; }
 
 .memberDescription p {
   padding: 0;
   margin: 0;
-  text-align: left; }
+  text-align: left;
+  width: 300px; }
 
 body {
   background-color: #f9f9f9;
@@ -196,7 +197,8 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0;
-  width: min-content; }
+  width: min-content;
+  padding: 30px 200px; }
 
 .member1 {
   display: grid;
