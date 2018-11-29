@@ -110,21 +110,21 @@ nav a:hover {
     border-bottom:2px solid #ee534f;
     width: 40px;
     height: 2.5px;
-    margin-left: 30px;
+    margin-left: 200px;
+
 }
     
 .line-border4 {
     border-top: 1.5px solid $primary-color4;
     width: 350px;
     margin-top: 1px;
-    margin-left: 30px;
+    margin-left: 200px;
 }
 
 .coursesImgs {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-top: 100px;
-    margin-left: -170px;
 }
 
 .imgs {

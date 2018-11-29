@@ -44,12 +44,12 @@ h4 {
 
 .header3 h2 {
   font-family: "Poppins", sans-medium;
-  padding: 30px 30px; }
+  padding: 20px 200px; }
 
 .describe_course p {
   font-family: "Poppins", sans-light;
   margin-top: 40px;
-  margin-left: -340px;
+  padding: 20px 200px;
   text-align: left;
   font-size: 1em;
   color: #666666; }
@@ -162,19 +162,18 @@ nav a:hover {
   border-bottom: 2px solid #ee534f;
   width: 40px;
   height: 2.5px;
-  margin-left: 30px; }
+  margin-left: 200px; }
 
 .line-border4 {
   border-top: 1.5px solid #e7e7e7;
   width: 350px;
   margin-top: 1px;
-  margin-left: 30px; }
+  margin-left: 200px; }
 
 .coursesImgs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 100px;
-  margin-left: -170px; }
+  margin-top: 100px; }
 
 .imgs {
   display: grid;
