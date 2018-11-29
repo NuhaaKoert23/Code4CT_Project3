@@ -60,7 +60,11 @@ h4 {
 .meet_our_team_des p {
   margin: 0;
   padding: 0;
-  text-align: left; }
+  text-align: left;
+  font-family: "Poppins", sans-light;
+  font-size: 15px;
+  padding: 30px 30px;
+  color: #666666; }
 
 .memberDescription p {
   padding: 0;
