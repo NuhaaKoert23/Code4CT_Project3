@@ -122,7 +122,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   font-family: "Poppins", sans-serif;
-  padding: 30px 100px; }
+  padding: 30px 200px; }
 
 .line-border {
   border-bottom: 2px solid #ee534f;
@@ -140,9 +140,9 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 630px;
-  grid-row-gap: 10px;
-  margin-left: -100px; }
+  width: min-content;
+  grid-gap: 10px;
+  margin-left: 0; }
 
 .who_we_are_img img {
   width: 300px;
