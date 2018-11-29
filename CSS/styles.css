@@ -90,7 +90,7 @@ nav {
 nav ul {
   list-style: none;
   padding: 2px 455px;
-  margin-top: -50px;
+  margin-top: -70px;
   font-size: 12px;
   font-family: "Poppins", sans-regular; }
 
@@ -203,8 +203,8 @@ nav a:hover {
 
 nav img {
   width: 150px;
-  height: 50px;
-  margin-top: 20px;
+  height: 80px;
+  margin-top: 10px;
   margin-left: 10px; }
 
 /* Style the search field */
