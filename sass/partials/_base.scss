@@ -21,23 +21,26 @@ h4 {
 
 // who we are content
 .describe_who_we_are {
+    h2 {
+        font-size: 23px;
+    }
     h4 {
         font-family: $font-stack2;
         color: $primary-color5;
         text-align: left;
-        line-height: 15.5px;
-        width: 500px;
+        line-height: 23px;
+        font-size: 18px;
     }
 
     p {
         text-align: left;
         margin-top: 5px;
-        font-size: 1em;
+        font-size: 18px;
         font-family: $font-stack4;
         color: $primary-color1;
-        width: 500px;
         margin: 0;
         padding: 0;
+        width: 600px;
     }
 
 }
@@ -58,7 +61,7 @@ h4 {
 // our exciting courses section
 .header3 h2 {
     font-family: $font-stack2;
-    padding: 10px 200px;
+    padding: 10px 150px;
     margin-top: 70px;
 
 }
@@ -66,7 +69,7 @@ h4 {
 .describe_course p {
     font-family: $font-stack4;
     margin-top: 0;
-    padding: 20px 200px;
+    padding: 20px 150px;
     text-align: left;
     font-size: 1em;
     color: $primary-color1;
@@ -75,7 +78,7 @@ h4 {
 // styling Meet our Team
 .header4 h2 {
     font-family: $font-stack2;
-    padding: 20px 200px;
+    padding: 20px 150px;
     margin-top: 100px;
 }
 
@@ -86,7 +89,7 @@ h4 {
         text-align: left;
         font-family: $font-stack4;
         font-size: 15px;
-        padding: 30px 200px;
+        padding: 30px 150px;
         color: $primary-color1;
     }
 }
