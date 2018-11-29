@@ -172,6 +172,19 @@ grid-template-columns: 1fr 1fr;
     }
 }
 
+.memberIcons img {
+    width: 15px;
+    height: 15px;
+    color: $primary-color1;
+}
+
+.memberIcons {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 200px;
+    margin-top: 150px;
+}
 
 
 
