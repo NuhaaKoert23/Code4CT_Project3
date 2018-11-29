@@ -61,20 +61,21 @@ nav a:hover {
     display:grid;
     grid-template-columns: repeat(2,1fr);
     font-family: $font-stack;
-    padding: 30px;
-    width: 400px;
+    padding: 30px 100px;
 }
 
 .line-border {
     border-bottom:2px solid #ee534f;
-    width: 50px;
+    width: 1px;
     height: 2.5px;
+    padding: 15px 100px;
 }
 
 .line-border2 {
     border-top: 1.2px solid $primary-color4;
-    width: 250px;
+    width: 100px;
     margin-top: 1px;
+    padding: 15px 100px;
 }
 
 // styling who we are gallery 
@@ -106,7 +107,7 @@ nav a:hover {
 // Styling of Our Exciting Courses section
 .line-border3 {
     border-bottom:2px solid #ee534f;
-    width: 50px;
+    width: 40px;
     height: 2.5px;
     margin-left: 30px;
 }

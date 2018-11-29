@@ -16,7 +16,7 @@ p {
 }
 
 h4 {
-    font-family: $font-stack2
+    font-family: $font-stack2;
 }
 
 // who we are content
@@ -32,11 +32,12 @@ h4 {
     p {
         text-align: left;
         margin-top: 5px;
-        margin-left: -370px;
         font-size: 1em;
         font-family: $font-stack4;
         color: $primary-color1;
         width: 500px;
+        margin: 0;
+        padding: 0;
     }
 
 }

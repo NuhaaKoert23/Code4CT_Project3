@@ -24,11 +24,12 @@ h4 {
 .describe_who_we_are p {
   text-align: left;
   margin-top: 5px;
-  margin-left: -370px;
   font-size: 1em;
   font-family: "Poppins", sans-light;
   color: #666666;
-  width: 500px; }
+  width: 500px;
+  margin: 0;
+  padding: 0; }
 
 .readmorebtn a {
   text-decoration: none;
@@ -121,18 +122,19 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   font-family: "Poppins", sans-serif;
-  padding: 30px;
-  width: 400px; }
+  padding: 30px 100px; }
 
 .line-border {
   border-bottom: 2px solid #ee534f;
-  width: 50px;
-  height: 2.5px; }
+  width: 1px;
+  height: 2.5px;
+  padding: 15px 100px; }
 
 .line-border2 {
   border-top: 1.2px solid #e7e7e7;
-  width: 250px;
-  margin-top: 1px; }
+  width: 100px;
+  margin-top: 1px;
+  padding: 15px 100px; }
 
 .who_we_are_img {
   display: grid;
@@ -157,7 +159,7 @@ nav a:hover {
 
 .line-border3 {
   border-bottom: 2px solid #ee534f;
-  width: 50px;
+  width: 40px;
   height: 2.5px;
   margin-left: 30px; }
 
@@ -243,7 +245,7 @@ button:hover {
 
 .readmorebtn button {
   background-color: white;
-  margin-top: 100px;
+  margin-top: 130px;
   width: 200px;
   font-size: 15px; }
 
