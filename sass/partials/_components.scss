@@ -9,7 +9,7 @@ nav img {
 /* Style the search field */
 form.search input[type=text] {
     margin-left:70px;
-    font-size: 10px;
+    font-size: 0.625em;
     border: 1px solid $primary-color1;
     border-radius: 2px;
     float: left;
@@ -38,7 +38,7 @@ button {
     color: $primary-color3;
     background-color: $background-color;
     font-family: $font-stack;
-    font-size: 10px;
+    font-size: 0.625em;
     }
 
     button:hover {
@@ -50,8 +50,7 @@ button {
     background-color: white;
     margin-top: 130px;
     width: 200px;
-    font-size: 15px;
-
+    font-size: 0.938em;
 }
 
 .cpcIcon img {

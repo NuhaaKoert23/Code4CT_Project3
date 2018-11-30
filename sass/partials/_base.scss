@@ -1,13 +1,13 @@
 // styling index header content
 .home_pageheader {
-    font-size: 25px;
+    font-size: 1.563em;
     width: 790px;
     padding: 125px 350px;
     text-align: center;
 }
 
 p {
-    font-size: 11px;
+    font-size: 0.668em;
     text-align: center;
     width:750px;
     height: 20px;
@@ -22,20 +22,20 @@ h4 {
 // who we are content
 .describe_who_we_are {
     h2 {
-        font-size: 23px;
+        font-size: 1.438em;
     }
     h4 {
         font-family: $font-stack2;
         color: $primary-color5;
         text-align: left;
         line-height: 23px;
-        font-size: 18px;
+        font-size: 1.125em;
     }
 
     p {
         text-align: left;
         margin-top: 5px;
-        font-size: 18px;
+        font-size: 1.125em;
         font-family: $font-stack4;
         color: $primary-color1;
         margin: 0;
@@ -55,7 +55,7 @@ h4 {
     padding: 0;
     margin-top: 10px;
     margin-left: 20px;
-    font-size: 13px;
+    font-size: 0.813em;
 }
 
 // our exciting courses section
@@ -63,7 +63,6 @@ h4 {
     font-family: $font-stack2;
     padding: 10px 150px;
     margin-top: 70px;
-
 }
 
 .describe_course p {
@@ -88,7 +87,7 @@ h4 {
         padding: 0;
         text-align: left;
         font-family: $font-stack4;
-        font-size: 15px;
+        font-size: 0.938em;
         padding: 30px 150px;
         color: $primary-color1;
     }
@@ -104,7 +103,7 @@ h4 {
     h3 {
         font-family: $font-stack2;
         color: $primary-color6;
-        font-size: 18px;
+        font-size: 1.125em;
         height: 15px;
         margin-top: -20px;
     }
@@ -112,7 +111,7 @@ h4 {
     .p1  {
         font-family: $font-stack;
         color: $primary-color1;
-        font-size: 16px;
+        font-size: 1em;
     }
 
     .p2 {
@@ -120,7 +119,7 @@ h4 {
         color: $primary-color1;
         margin-top: 20px;
         line-height: 20px;
-        font-size: 13px;
+        font-size: 0.813em;
     }
 }
 

@@ -1,11 +1,11 @@
 .home_pageheader {
-  font-size: 25px;
+  font-size: 1.563em;
   width: 790px;
   padding: 125px 350px;
   text-align: center; }
 
 p {
-  font-size: 11px;
+  font-size: 0.668em;
   text-align: center;
   width: 750px;
   height: 20px;
@@ -16,17 +16,17 @@ h4 {
   font-family: "Poppins", sans-medium; }
 
 .describe_who_we_are h2 {
-  font-size: 23px; }
+  font-size: 1.438em; }
 .describe_who_we_are h4 {
   font-family: "Poppins", sans-medium;
   color: #333333;
   text-align: left;
   line-height: 23px;
-  font-size: 18px; }
+  font-size: 1.125em; }
 .describe_who_we_are p {
   text-align: left;
   margin-top: 5px;
-  font-size: 18px;
+  font-size: 1.125em;
   font-family: "Poppins", sans-light;
   color: #666666;
   margin: 0;
@@ -42,7 +42,7 @@ h4 {
   padding: 0;
   margin-top: 10px;
   margin-left: 20px;
-  font-size: 13px; }
+  font-size: 0.813em; }
 
 .header3 h2 {
   font-family: "Poppins", sans-medium;
@@ -67,7 +67,7 @@ h4 {
   padding: 0;
   text-align: left;
   font-family: "Poppins", sans-light;
-  font-size: 15px;
+  font-size: 0.938em;
   padding: 30px 150px;
   color: #666666; }
 
@@ -79,19 +79,19 @@ h4 {
 .memberDescription h3 {
   font-family: "Poppins", sans-medium;
   color: #555555;
-  font-size: 18px;
+  font-size: 1.125em;
   height: 15px;
   margin-top: -20px; }
 .memberDescription .p1 {
   font-family: "Poppins", sans-serif;
   color: #666666;
-  font-size: 16px; }
+  font-size: 1em; }
 .memberDescription .p2 {
   font-family: "Poppins", sans-light;
   color: #666666;
   margin-top: 20px;
   line-height: 20px;
-  font-size: 13px; }
+  font-size: 0.813em; }
 
 body {
   background-color: #f9f9f9;
@@ -113,7 +113,7 @@ nav ul {
   list-style: none;
   padding: 2px 455px;
   margin-top: -70px;
-  font-size: 12px;
+  font-size: 0.750em;
   font-family: "Poppins", sans-regular; }
 
 nav li {
@@ -151,9 +151,10 @@ nav a:hover {
   width: 40px; }
 
 .line-border2 {
-  border-top: 3px solid #e7e7e7;
-  margin-top: -2px;
-  width: 290px; }
+  border-top: 3.5px solid #e7e7e7;
+  margin-top: -3px;
+  width: 290px;
+  margin-left: 40px; }
 
 .who_we_are_img {
   display: grid;
@@ -186,7 +187,7 @@ nav a:hover {
 .line-border4 {
   border-top: 3px solid #e7e7e7;
   width: 350px;
-  margin-top: -2px;
+  margin-top: -3px;
   margin-left: 190px; }
 
 .coursesImgs {
@@ -217,10 +218,10 @@ nav a:hover {
 .members {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0;
+  margin-top: 80px;
   width: min-content;
   row-gap: 30px;
-  padding: 50px 150px; }
+  margin-left: 150px; }
 
 .member1 {
   display: grid;
@@ -228,7 +229,7 @@ nav a:hover {
   grid-template-columns: 1fr 1fr; }
 
 .memberDescription {
-  padding: 27px; }
+  padding: 28px; }
   .memberDescription .line-border4 {
     padding: 0;
     margin: 0;
@@ -251,7 +252,7 @@ nav img {
 /* Style the search field */
 form.search input[type=text] {
   margin-left: 70px;
-  font-size: 10px;
+  font-size: 0.625em;
   border: 1px solid #666666;
   border-radius: 2px;
   float: left;
@@ -277,7 +278,7 @@ button {
   color: #e8e8e8;
   background-color: #222222;
   font-family: "Poppins", sans-serif;
-  font-size: 10px; }
+  font-size: 0.625em; }
 
 button:hover {
   background-color: #ee534f; }
@@ -286,7 +287,7 @@ button:hover {
   background-color: white;
   margin-top: 130px;
   width: 200px;
-  font-size: 15px; }
+  font-size: 0.938em; }
 
 .cpcIcon img {
   width: 50px;
