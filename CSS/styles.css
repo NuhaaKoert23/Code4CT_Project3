@@ -80,7 +80,8 @@ h4 {
   font-family: "Poppins", sans-medium;
   color: #555555;
   font-size: 18px;
-  height: 15px; }
+  height: 15px;
+  margin-top: -20px; }
 .memberDescription .p1 {
   font-family: "Poppins", sans-serif;
   color: #666666;
@@ -145,14 +146,14 @@ nav a:hover {
   padding: 30px 150px; }
 
 .line-border {
-  border-bottom: 2px solid #ee534f;
+  border-bottom: 3px solid #ee534f;
   height: 2.5px;
   width: 40px; }
 
 .line-border2 {
-  border-top: 1.2px solid #e7e7e7;
-  margin-top: 1px;
-  width: 250px; }
+  border-top: 3px solid #e7e7e7;
+  margin-top: -2px;
+  width: 290px; }
 
 .who_we_are_img {
   display: grid;
@@ -177,21 +178,22 @@ nav a:hover {
   padding: 30px 150px; }
 
 .line-border3 {
-  border-bottom: 2px solid #ee534f;
+  border-bottom: 3px solid #ee534f;
   width: 40px;
   height: 2.5px;
   margin-left: 150px; }
 
 .line-border4 {
-  border-top: 1.5px solid #e7e7e7;
+  border-top: 3px solid #e7e7e7;
   width: 350px;
-  margin-top: 1px;
-  margin-left: 150px; }
+  margin-top: -2px;
+  margin-left: 190px; }
 
 .coursesImgs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 170px; }
+  margin-top: 170px;
+  width: min-content; }
 
 .imgs {
   display: grid;
@@ -199,15 +201,17 @@ nav a:hover {
   grid-template-rows: repeat(2, 1fr);
   row-gap: 10px;
   column-gap: 5px;
-  margin-left: 150px; }
+  margin-left: 140px;
+  width: min-content;
+  padding: 10px; }
 
 .imgs img {
-  width: 300px;
+  width: 290px;
   height: 200px; }
 
 .bigimg img {
-  margin-left: 50px;
-  width: 400px;
+  padding: 10px;
+  width: 606px;
   height: 415px; }
 
 .members {
@@ -224,24 +228,19 @@ nav a:hover {
   grid-template-columns: 1fr 1fr; }
 
 .memberDescription {
-  padding: 10px; }
+  padding: 27px; }
   .memberDescription .line-border4 {
     padding: 0;
     margin: 0;
     width: 230px;
     margin-top: 10px; }
 
-.memberIcons img {
-  width: 15px;
-  height: 15px;
-  color: #666666; }
-
 .memberIcons {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   width: 200px;
-  margin-top: 150px; }
+  margin-top: 165px; }
 
 nav img {
   width: 150px;
@@ -297,5 +296,10 @@ button:hover {
 .memberImg img {
   width: 250px;
   height: 300px; }
+
+.memberIcons i {
+  width: 15px;
+  height: 15px;
+  color: #666666; }
 
 /*# sourceMappingURL=styles.css.map */

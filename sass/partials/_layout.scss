@@ -65,15 +65,15 @@ nav a:hover {
 }
 
 .line-border {
-    border-bottom:2px solid #ee534f;
+    border-bottom:3px solid #ee534f;
     height: 2.5px;
     width: 40px;
 }
 
 .line-border2 {
-    border-top: 1.2px solid $primary-color4;
-    margin-top: 1px;
-    width: 250px;
+    border-top: 3px solid $primary-color4;
+    margin-top: -2px;
+    width: 290px;
 }
 
 // styling who we are gallery 
@@ -105,7 +105,7 @@ nav a:hover {
 
 // Styling of Our Exciting Courses section
 .line-border3 {
-    border-bottom:2px solid #ee534f;
+    border-bottom:3px solid #ee534f;
     width: 40px;
     height: 2.5px;
     margin-left: 150px;
@@ -113,16 +113,17 @@ nav a:hover {
 }
     
 .line-border4 {
-    border-top: 1.5px solid $primary-color4;
+    border-top: 3px solid $primary-color4;
     width: 350px;
-    margin-top: 1px;
-    margin-left: 150px;
+    margin-top: -2px;
+    margin-left: 190px;
 }
 
 .coursesImgs {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-top: 170px;
+    width: min-content;
 }
 
 .imgs {
@@ -131,17 +132,19 @@ nav a:hover {
     grid-template-rows: repeat(2,1fr);
     row-gap: 10px;
     column-gap: 5px;
-    margin-left: 150px;
+    margin-left: 140px;
+    width: min-content;
+    padding: 10px;
 }
 
 .imgs img {
-    width: 300px;
+    width: 290px;
     height: 200px;;
 }
 
 .bigimg img {
-    margin-left: 50px;
-    width: 400px;
+    padding: 10px;
+    width: 606px;
     height: 415px;
 }
 
@@ -162,7 +165,7 @@ grid-template-columns: 1fr 1fr;
 }
 
 .memberDescription {
-    padding: 10px;
+    padding: 27px;
 
     .line-border4 {
         padding: 0;
@@ -172,18 +175,12 @@ grid-template-columns: 1fr 1fr;
     }
 }
 
-.memberIcons img {
-    width: 15px;
-    height: 15px;
-    color: $primary-color1;
-}
-
 .memberIcons {
     padding: 0;
     display: grid;
     grid-template-columns: repeat(6,1fr);
     width: 200px;
-    margin-top: 150px;
+    margin-top: 165px;
 }
 
 
