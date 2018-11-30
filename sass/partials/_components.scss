@@ -39,12 +39,13 @@ button {
     background-color: $background-color;
     font-family: $font-stack;
     font-size: 0.625em;
+    position: relative;
     }
 
-    button:hover {
+button:hover {
     background-color: $hover-color;
     width: 137.5px;
-    }
+}
 
 // styling 1st read more button
 .readmorebtn {
