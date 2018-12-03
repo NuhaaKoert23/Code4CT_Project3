@@ -183,6 +183,28 @@ grid-template-columns: 1fr 1fr;
     margin-top: 165px;
 }
 
+.project_status {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: min-content;
 
+    .line-border5 {
+        border-top: 3px solid $primary-color1;
+        padding: 0;
+        margin: 0;
+        width: 40px;
+    }
+
+    h3 {
+        padding: 0;
+        margin: 0;
+    }
+    
+    p {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+}
 
 

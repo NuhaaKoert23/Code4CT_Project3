@@ -243,6 +243,23 @@ nav a:hover {
   width: 200px;
   margin-top: 165px; }
 
+.project_status {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: min-content; }
+  .project_status .line-border5 {
+    border-top: 3px solid #666666;
+    padding: 0;
+    margin: 0;
+    width: 40px; }
+  .project_status h3 {
+    padding: 0;
+    margin: 0; }
+  .project_status p {
+    padding: 0;
+    margin: 0;
+    text-align: left; }
+
 nav img {
   width: 150px;
   height: 80px;
