@@ -113,7 +113,7 @@
 
         <div class="communication">
             <div class="cpcIcon">
-                
+                <i class="fas fa-volume-up"></i>
             </div>
 
             <h3>Communication</h3>
@@ -280,7 +280,7 @@
         <div class="project_status">
             <div class="status1">
                 <div class="line-border5" type="box"></div>
-                <h3 id="cup_of_coffee">0</h3>
+                <h3 id="cups_of_coffee">0</h3>
                 <p>Cups of coffee:</p>
             </div>
 
@@ -302,7 +302,42 @@
                 <p>Hours of coding:</p>
             </div>
         </div>
+
+       
+        
+        
     </div>
     <script src="main.js"></script>
+
+     <script>
+            var countLeftForCoffee=0;
+            var countLeftForGirls=280;
+            var countLeftForProjects=2680;
+            var countLeftForHours=8265;
+
+            var cups_of_coffee=document.getElementById("cups_of_coffee");
+            var number_of_girls=document.getElementById("number_of_girls");
+            var projects_completed=document.getElementById("projects_completed");
+            var hours_of_coding=document.getElementById("hours_of_coding");
+
+            var countdown=setInterval(function(){
+            cups_of_coffee.innerHTML=countLeftForCoffee;
+            number_of_girls.innerHTML=countLeftForGirls;
+            projects_completed.innerHTML=countLeftForProjects;
+            hours_of_coding.innerHTML=countLeftForHours;
+
+                if (countLeftForCoffee===3000) {
+                clearInterval(countdown);
+                cups_of_coffee.innerHTML= "3000+";
+                number_of_girls.innerHTML="780+";
+                projects_completed.innerHTML ="3120+";
+                hours_of_coding.innerHTML= "8765+";
+                } countLeftForCoffee+=10;
+                countLeftForGirls++;
+                countLeftForProjects++;
+                countLeftForHours++;
+            },
+            1);
+    </script>
 </body>
 </html>
