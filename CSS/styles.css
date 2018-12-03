@@ -98,7 +98,16 @@ h4 {
   font-size: 1.8em; }
 .project_status p {
   font-family: "Poppins", sans-regular;
+  font-size: 1.3em; }
+
+.subscribe h3 {
+  font-family: "Poppins", sans-SemiBold;
+  color: #333333;
   font-size: 1.1em; }
+.subscribe p {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  font-size: 0.888em; }
 
 body {
   background-color: #f9f9f9;
@@ -251,7 +260,8 @@ nav a:hover {
   margin-top: 165px; }
 
 .numbers {
-  background-color: #ee534f; }
+  background-color: #ee534f;
+  margin-top: 70px; }
   .numbers .project_status {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -272,6 +282,24 @@ nav a:hover {
       margin: 0;
       text-align: left;
       width: 320px; }
+
+.subscribe {
+  text-align: center; }
+  .subscribe .heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content;
+    margin-left: 630px;
+    height: 30px;
+    margin-top: 70px; }
+  .subscribe h3 {
+    padding: 0;
+    margin: 0;
+    width: 200px; }
+  .subscribe p {
+    margin: 0;
+    padding: 30px 350px;
+    margin-top: -15px; }
 
 nav img {
   width: 150px;
@@ -334,5 +362,22 @@ button:hover {
   width: 15px;
   height: 15px;
   color: #666666; }
+
+.subscribe i {
+  color: #ee534f; }
+.subscribe input {
+  width: 300px;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  background-color: #e8e8e8;
+  border: 1px solid #f9f9f9;
+  border-radius: 5px; }
+.subscribe button {
+  background-color: #ee534f;
+  height: 35px;
+  border: 1px solid #ee534f;
+  border-radius: 5px;
+  font-size: 0.8em; }
 
 /*# sourceMappingURL=styles.css.map */

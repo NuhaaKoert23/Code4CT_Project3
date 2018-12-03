@@ -132,6 +132,21 @@ h4 {
 
     p {
         font-family: $font-stack3;
+        font-size: 1.3em;
+    }
+}
+
+// subscribe to us 
+.subscribe {
+    h3 {
+        font-family: $font-stack5;
+        color: $primary-color5;
         font-size: 1.1em;
+    }
+
+    p {
+        font-family: $font-stack;
+        color: $primary-color6;
+        font-size: 0.888em;
     }
 }

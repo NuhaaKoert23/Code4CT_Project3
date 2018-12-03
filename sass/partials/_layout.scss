@@ -185,6 +185,7 @@ grid-template-columns: 1fr 1fr;
 
 .numbers{
     background-color: $hover-color;
+    margin-top: 70px;
 
     .project_status {
     display: grid;
@@ -213,6 +214,31 @@ grid-template-columns: 1fr 1fr;
         width: 320px;
     }
 }
+}
+
+.subscribe {
+    text-align: center;
+
+    .heading {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: min-content;
+        margin-left:630px;
+        height: 30px;
+        margin-top: 70px;
+    }
+
+    h3 {
+        padding: 0;
+        margin: 0;
+        width: 200px;
+    }
+
+    p {
+        margin: 0;
+        padding: 30px 350px;
+        margin-top: -15px;
+    }
 }
 
 

@@ -61,15 +61,12 @@ button:hover {
     }
 }
 
-
-
 // styling the coding, communication, problem solving and career guidance icons
 .cpcIcon {
     i {
         font-size: 1em;
     }
 }
-
 
 // members of the team
 .memberImg img {
@@ -82,3 +79,28 @@ button:hover {
     height: 15px;
     color: $primary-color1;
 }
+
+// styling of subscribe icon
+.subscribe {
+    i {
+        color: $hover-color;
+    }
+
+    input {
+        width: 300px;
+        height: 30px;
+        font-family: $font-stack;
+        color: $primary-color6;
+        background-color: $primary-color3;
+        border: 1px solid $primary-color2;
+        border-radius: 5px;
+    }
+
+    button {
+        background-color: $hover-color;
+        height: 35px;
+        border: 1px solid $hover-color;
+        border-radius: 5px;
+        font-size: 0.8em
+    }
+} 
