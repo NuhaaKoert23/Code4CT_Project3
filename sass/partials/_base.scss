@@ -123,3 +123,15 @@ h4 {
     }
 }
 
+// styling status container 
+.project_status {
+    h3 {
+        font-family: $font-stack5;
+        font-size: 1.8em;
+    }
+
+    p {
+        font-family: $font-stack3;
+        font-size: 1.1em;
+    }
+}
