@@ -247,7 +247,10 @@ grid-template-columns: 1fr 1fr;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(4,1fr);
     width: min-content;
-    
+    background-image: url("https://kaboompics.com/download/a88fd5b107ee50a732d2437c99925f2d/original");
+    background-size: cover;
+    padding: 50px 150px;
+    margin-top: 70px;
 }
 
 

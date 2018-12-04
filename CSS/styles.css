@@ -305,7 +305,11 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  width: min-content; }
+  width: min-content;
+  background-image: url("https://kaboompics.com/download/a88fd5b107ee50a732d2437c99925f2d/original");
+  background-size: cover;
+  padding: 50px 150px;
+  margin-top: 70px; }
 
 nav img {
   width: 150px;
@@ -385,5 +389,9 @@ button:hover {
   border: 1px solid #ee534f;
   border-radius: 5px;
   font-size: 0.8em; }
+
+.partners img {
+  width: 300px;
+  height: 200px; }
 
 /*# sourceMappingURL=styles.css.map */
