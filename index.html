@@ -325,72 +325,127 @@
     </div>
 
     <div class="partners">
-        <div class="carousel1">
-            <img src="./images/carousel1.png" alt="">
-        </div>
+        <div class="carousel">
+            <ul class="slides">
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel1.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel2">
-            <img src="./images/carousel2.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel2.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel3">
-            <img src="./images/carousel3.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel3.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel4">
-            <img src="./images/carousel4.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel4.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel5">
-            <img src="./images/carousel5.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel5.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel6">
-            <img src="./images/carousel6.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel6.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel7">
-            <img src="./images/carousel7.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel7.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel8">
-            <img src="./images/carousel8.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel8.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel9">
-            <img src="./images/carousel9.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel9.png" alt=""></span>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel10.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel10">
-            <img src="./images/carousel10.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel11.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel11">
-            <img src="./images/carousel11.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel12.png" alt=""></span>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel13.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel12">
-            <img src="./images/carousel12.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel14.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel13">
-            <img src="./images/carousel13.png" alt="">
-        </div>
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel15.png" alt=""></span>
+                    </div>
+                </li> 
 
-        <div class="carousel14">
-            <img src="./images/carousel14.png" alt="">
-        </div>
-
-        <div class="carousel15">
-            <img src="./images/carousel15.png" alt="">
-        </div>
-
-        <div class="carousel16">
-            <img src="./images/carousel16.png" alt="">
+                <li>
+                    <div class="carouselimg">
+                        <span><img src="./images/carousel16.png" alt=""></span>
+                    </div>
+                </li> 
+            </ul>
+            
         </div>
     </div>
     <script src="main.js"></script>
 
+    <script>
+        $(document).ready(function(){
+        $slides = $('.slides');
+        $slides.bind('contentchanged', function(){
+        animate($slides);
+  });
+  animate($slides);
+});
+
+function animate($slides){
+  var slidesLength = $slides.find('li').length;
+  if(slidesLength>4){
+    $slides.find('li:nth-last-child(-n+4)').clone().prependTo($slides);
+    $slides.addClass('.animate');
+    $slides.css('animation-duration', slidesLength*3+'s');
+  }
+}
+    </script>
      <script>
             var countLeftForCoffee=0;
             var countLeftForGirls=280;
