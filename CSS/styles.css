@@ -301,6 +301,12 @@ nav a:hover {
     padding: 30px 350px;
     margin-top: -15px; }
 
+.partners {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: min-content; }
+
 nav img {
   width: 150px;
   height: 80px;

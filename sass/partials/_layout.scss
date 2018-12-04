@@ -241,5 +241,14 @@ grid-template-columns: 1fr 1fr;
     }
 }
 
+// carousel images 
+.partners {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    width: min-content;
+    
+}
+
 
 
